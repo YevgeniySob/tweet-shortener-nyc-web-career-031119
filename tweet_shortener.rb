@@ -18,7 +18,7 @@ def word_substituter(str)
   str = str.dup
   dictionary.each do |word, subst|
     if str.include?(word)
-      str.gsub!(/\b#{word}\b/i, replacement)
+      str.gsub!(/\b#{word}\b/i, subst)
     end
   end
   str
