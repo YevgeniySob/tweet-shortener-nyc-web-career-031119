@@ -19,8 +19,8 @@ def word_substituter(str)
     if str.include?(word)
       str.gsub(word, subst)
     end
-    
   end
+  str
 end
 
 def bulk_tweet_shortener(arr)
