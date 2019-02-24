@@ -15,7 +15,10 @@ def dictionary
 end
 
 def work_substituter(str)
-  
+  dictionary.each do |words, subst|
+    
+    
+  end
 end
 
 def bulk_tweet_shortener(arr)
