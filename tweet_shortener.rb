@@ -1,14 +1,15 @@
 # Write your code here.
 def dictionary
   dictionary = {
-    hello: "hi",
-    to: "2",
-    two: "2",
-    too: "2",
-    be: "b",
-    you: "u",
-    at: "@",
-    and: "&"
+  "too" => "2",
+  "to" => "2",
+  "two" =>"2",
+  "four" => "4",
+  "for" => "4",
+  "be" => "b",
+  "you" => "u",
+  "at" => "@",
+  "and" => "&"
   }
 "hello" becomes 'hi'
 "to, two, too" become '2' 
