@@ -15,12 +15,13 @@ def dictionary
 end
 
 def word_substituter(str)
+  temp = ""
   dictionary.each do |word, subst|
     if str.include?(word)
-      str.gsub!(/\#{word}\b/, subst)
+      temp = str.gsub!(/\#{word}\b/, subst)
     end
   end
-  str
+  temp
 end
 
 def bulk_tweet_shortener(arr)
