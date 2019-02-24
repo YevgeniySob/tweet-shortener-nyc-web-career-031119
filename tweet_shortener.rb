@@ -14,7 +14,7 @@ def dictionary
   }
 end
 
-def work_substituter(str)
+def word_substituter(str)
   dictionary.each do |word, subst|
     if str.include?(word)
       str.gsub(word, subst)
