@@ -12,3 +12,8 @@ end
 def work_substituter(str)
   
 end
+
+def bulk_tweet_shortener(arr)
+  
+end
+
