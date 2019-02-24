@@ -17,7 +17,8 @@ end
 def work_substituter(str)
   dictionary.each do |word, subst|
     if str.include?(word)
-      
+      str.gsub(word, subst)
+    end
     
   end
 end
