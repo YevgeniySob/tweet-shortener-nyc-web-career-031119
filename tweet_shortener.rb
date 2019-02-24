@@ -18,7 +18,7 @@ def bulk_tweet_shortener(arr)
 end
 
 def selective_tweet_shortener(tweet)
-  tweet.length > 140 ? shortened_tweet_truncator(tweet) : tweet
+  tweet.length > 140 ? tweet[0.140] : tweet
 end
 
 def shortened_tweet_truncator(tweet)
