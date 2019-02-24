@@ -15,8 +15,9 @@ def dictionary
 end
 
 def work_substituter(str)
-  dictionary.each do |words, subst|
-    
+  dictionary.each do |word, subst|
+    if str.include?(word)
+      
     
   end
 end
